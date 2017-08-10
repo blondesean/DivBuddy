@@ -206,6 +206,7 @@ def monitor_market_file(source, pullCount, saveLocation, date):
           problems = problems + "No Beta, "
         if (comp_stats[0][10] == 99):
           problems = problems + "No Dividends, "
+	  comp_stats[0][10] = 0 #No dividends is possible, will have 0 div growth rate in model
         if (comp_stats[0][11] == 99 or comp_stats[0][11] == 999):
           problems = problems + "Class Stock, "
         if (problems == ""):
