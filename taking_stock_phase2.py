@@ -24,7 +24,7 @@ sendMail = 1
 From = "seanwithwings@gmail.com"
 To = "jesse226@gmail.com"
 CC = "svd5148@gmail.com"
-Password = "Mybiz0114"
+Password = "XXXX"
 
 # /\/\ --- Change Inputs --- /\/\
 
